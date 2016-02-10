@@ -18,10 +18,10 @@ function updateDiv(divName, str) {
 				number = Math.pow(2, 32) + Number(number);
 			}
 
-		} else if (number.length >= 2 && 
+		} else if (number.length > 2 && 
 			(number[0] == 0 && 
 				(number[1] == "x" || number[1] == "X"))) {
-
+			number = parseInt(number, 16);
 		} else {
 			alert(str + " is not a hex or decimal number");
 			return;

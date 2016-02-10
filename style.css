@@ -23,11 +23,21 @@ body {
 }
 
 .forms {
-	width: 150px;
+	width: 250px;
 	margin: auto;
-	padding: 15px;
+	padding-top: 10px;
 }
 
-.center {
-	margin: 0 auto;
+textarea {
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+	margin: 0 5px;
+}
+
+button {
+	width: 100px;
+	position: relative;
+	font-size: 20px;
+	margin: 5px 75px;
 }
