@@ -4,8 +4,15 @@
 
 $(function() {
 	$("#update").click(function() {
-		updateDiv("big", $("textarea#background").val());
-		updateDiv("small", $("textarea#foreground").val());
+		updateDiv("big", $("input#background").val());
+		updateDiv("small", $("input#foreground").val());
+	});
+
+	$("input").keypress(function(event) {
+	    if (event.which == 13) {
+			updateDiv("big", $("input#background").val());
+			updateDiv("small", $("input#foreground").val());
+	    }
 	});
 });
 
