@@ -2,16 +2,20 @@
 	background-color: #041e42;
 	width: 400px;
 	height: 400px; 
-	margin: 0 auto;
-	margin-top: 20px;
+	margin: 10px auto;
+	position: relative;
+	z-index: 10;
 }
 
 #small {
 	background-color: #ffc72c;
 	width: 200px;
 	height: 200px;
-	margin-top: -300px;
-	margin-left: 215px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -310px;
+	z-index: 20;
 }
 
 body {

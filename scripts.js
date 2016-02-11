@@ -1,7 +1,3 @@
-
-//better formating
-//write the hex converters
-
 $(function() {
 	$("#update").click(function() {
 		updateDiv("big", $("input#background").val());
@@ -15,6 +11,7 @@ $(function() {
 	    }
 	});
 });
+
 
 function updateDiv(divName, str) {
 		var alpha, red, green, blue;
